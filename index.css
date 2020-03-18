@@ -1,0 +1,214 @@
+*{box-sizing: content-box;
+}
+
+.top-bar{color: #828584;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+background-color: black;
+/* #fecf19; */
+}
+
+nav a{font-size: 1.25em;
+padding-right: 1em;
+text-decoration: none;
+color: black;
+/* padding-top: 5em; */
+}
+
+nav a:hover{text-decoration: none;
+color:#fecf19;}
+
+nav a img {
+	padding-bottom: 1em;}
+
+nav{margin-left: 2em;
+		margin-right: 2em;
+	padding: 2em;
+	padding-top: 3em;
+	padding-bottom: 0;
+	text-align: center;
+	/* position: fixed;
+	left: 0;
+	right: 0; */
+	}
+
+.form-submit{
+margin-left: 2em;
+margin-right: 2em;
+height: 30em;
+}
+
+p {
+padding-bottom: 2em;
+text-align: center;
+color: #828584;
+}
+
+.carousel-inner img{height: 640px;
+	object-fit: cover;
+}
+
+/* Form Formatting */
+
+.form-submit {width: 50%;
+margin: 2.5em auto;
+text-align: center;
+background-color: #ececec;
+padding: 2.5em;}
+
+.form-submit h2, label, p, input {font-family: 'Montserrat',sans-serif;}
+
+.form-submit p {font-size: 0.8em;
+}
+
+.form-submit label {padding-bottom: 1em;
+}
+
+form {padding: 1.5em;
+}
+
+input {height: 2.3em;
+	padding-right: 3em;
+	margin-right: 0.5em;
+	border: 0.7px solid black;
+}
+
+
+
+/* Menu Page Formatting */
+
+h1 {text-align: center;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1.5em;
+}
+
+dt{font-weight: normal;
+}
+
+.price {float: right;
+}
+
+dl{font-size: 0.8em;
+}
+dd{padding-bottom: 0.5em;
+}
+
+.main .menu-list{padding-bottom: 5em;
+	background-image: url("img/back/back.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* Footer Formatting */
+
+footer header{font-size: 1.7em;
+	padding: 1em;
+}
+
+footer img{ width: 2.5em;
+	height: 2.5em;
+	padding-bottom: 1.5em;
+	padding-right: 0.5em;
+	padding-top: 1em;
+}
+
+footer p{background-color: #fecf19;
+padding: 1em;
+margin-bottom: 0;
+color: #828584;
+}
+
+footer{border-top: 1px solid #828584;
+text-align: center;
+padding-top: 2em;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+
+
+
+/* Gallery Page Formatting */
+
+.row img{
+height: 100%;
+width: 100%;
+margin: 0;
+padding-bottom: 1em;
+
+
+}
+
+/* Contact page */
+
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+		text-align: center;
+}
+
+main {display: block;}
+
+div {display: block;}
+
+body {font-size: 20px;
+    font-family: "Work Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #3d4246;
+    line-height: 1.5;}
+
+h1, h2{ display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	}
+
+
+iframe {
+	    max-width: 100%;
+	}
+
+
+.info {text-align: center;
+	     color: #3d4246;
+			 font-family: "Montserrat", sans-serif;
+}
+
+/* About page */
+
+.section-about {
+    background-color: #fafafa;
+    color: #000;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    text-align: center;
+		display: block;
+}
+
+
+article {display: block;}
+
+@media (min-width: 768px)
+.section-about article p {
+    font-size: 1.5rem;
+    width: 60%;
+}
+
+.section-about article p {
+    margin: 0 auto;
+    text-transform: uppercase;
+	  font-size: 1.23rem;
+	  width: 80%}
+
+
+
+body {color: #3d4246;}
